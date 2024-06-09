@@ -47,13 +47,15 @@ h1 {
 .info-bar {
     margin-top: 20px;
     height: 100px;
+    line-height: 100px;
     width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: black;
     color: white;
     opacity: 80%;
-    border-radius: 20px;
+    font-size: large;
+    font-weight: 800;
 }
 
 .data-container {
@@ -63,7 +65,17 @@ h1 {
     margin-top: 20px;
 }
 
-.data {
+.weather-data {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
     background-color: white;
     border: black;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.location-data {
+    border: solid 4px white;
+    max-height: 100px;
+    overflow: hidden;
 }
