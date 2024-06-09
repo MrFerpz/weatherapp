@@ -69,8 +69,7 @@ h1 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: white;
-    border: black;
-    border-radius: 20px;
+    border: solid black 4px;
     height: 200px;
 }
 
@@ -78,4 +77,10 @@ h1 {
     border: solid 4px white;
     max-height: 100px;
     overflow: hidden;
+}
+
+.box {
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
